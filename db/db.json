@@ -16,6 +16,10 @@
       {
         "id": 4,
         "tipo": "Integral"
+      },
+      {
+        "id": 5,
+        "tipo": "Pão Mexicano"
       }
     ],
     "carnes": [
@@ -77,5 +81,31 @@
       "tipo": "Finalizado"
     }
   ],
-  "burgers": []
+  "burgers": [
+    {
+      "name": "Muryllo Henrique",
+      "meat": "Alcatra",
+      "bread": "3 Queijos",
+      "optionals": [
+        "Bacon",
+        "Salame",
+        "Cebola roxa"
+      ],
+      "status": "Solicitado",
+      "id": 1
+    },
+    {
+      "name": "Vue.js",
+      "meat": "Maminha",
+      "bread": "Integral",
+      "optionals": [
+        "Bacon",
+        "Salame",
+        "Cebola roxa",
+        "Pepino"
+      ],
+      "status": "Solicitado",
+      "id": 2
+    }
+  ]
 }
