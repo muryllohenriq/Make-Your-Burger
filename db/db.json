@@ -83,50 +83,38 @@
   ],
   "burgers": [
     {
-      "name": "Muryllo Henrique",
-      "meat": "Alcatra",
-      "bread": "3 Queijos",
+      "name": "Muliro",
+      "meat": "Maminha",
+      "bread": "Parmesão e Orégano",
       "optionals": [
         "Bacon",
-        "Salame",
-        "Cebola roxa"
+        "Tomate"
       ],
-      "status": "Solicitado",
+      "status": "Finalizado",
       "id": 1
     },
     {
       "name": "Vue.js",
-      "meat": "Maminha",
-      "bread": "Integral",
-      "optionals": [
-        "Bacon",
-        "Salame",
-        "Cebola roxa",
-        "Pepino"
-      ],
-      "status": "Solicitado",
-      "id": 2
-    },
-    {
-      "name": "Vue.js",
-      "meat": "Picanha",
+      "meat": "Veggie burger",
       "bread": "3 Queijos",
       "optionals": [
         "Bacon",
-        "Salame"
+        "Cheddar"
       ],
-      "status": "Solicitado",
-      "id": 3
+      "status": "Em produção",
+      "id": 2
     },
     {
-      "name": "React",
-      "meat": "Picanha",
-      "bread": "Integral",
+      "name": "sayu",
+      "meat": "Maminha",
+      "bread": "3 Queijos",
       "optionals": [
-        "Tomate"
+        "Bacon",
+        "Salame",
+        "Pepino"
       ],
-      "status": "Solicitado",
-      "id": 4
+      "status": "Finalizado",
+      "id": 3
     }
   ]
 }
