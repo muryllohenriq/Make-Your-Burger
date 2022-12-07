@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>Componente de Mensagem</p>
+    <Message :msg="msg" v-show="msg"/>
     <div>
       <form id="burger-form" @submit="createBurger">
         <div class="input-container">
@@ -53,6 +53,8 @@
   </div>
 </template>
 <script>
+import Message from './Message.vue';
+
 export default {
   name: "BurgerForm",
   data() {
@@ -97,6 +99,13 @@ export default {
 
         const res = await req.json();
 
+        // Coloca uma msg na tela dinamicamente
+        this.msg = `Pedido Nº ${res.id} realizado com sucesso`
+
+        // Limpa a msg
+        setTimeout(() => this.msg = "", 3000);
+
+        // Limpa os campos
         this.name = "";
         this.meat = "";
         this.bread = "";
@@ -106,6 +115,9 @@ export default {
   mounted() {
     this.getIngredients();
   },
+  components: {
+    Message
+  }
 };
 </script>
 <style scoped>

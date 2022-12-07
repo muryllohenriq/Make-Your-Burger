@@ -106,6 +106,27 @@
       ],
       "status": "Solicitado",
       "id": 2
+    },
+    {
+      "name": "Vue.js",
+      "meat": "Picanha",
+      "bread": "3 Queijos",
+      "optionals": [
+        "Bacon",
+        "Salame"
+      ],
+      "status": "Solicitado",
+      "id": 3
+    },
+    {
+      "name": "React",
+      "meat": "Picanha",
+      "bread": "Integral",
+      "optionals": [
+        "Tomate"
+      ],
+      "status": "Solicitado",
+      "id": 4
     }
   ]
 }
