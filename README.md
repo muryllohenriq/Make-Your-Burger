@@ -1,6 +1,6 @@
 # Make your Burger
 
-Este é um site para uma hamburgueria, projetado e desenvolvido durante o [Curso de Vue 3](https://www.youtube.com/playlist?list=PLnDvRpP8BnezDglaAvtWgQXzsOmXUuRHL).
+Este é um site para uma hamburgueria, projetado e desenvolvido durante um [Curso de Vue 3](https://www.youtube.com/playlist?list=PLnDvRpP8BnezDglaAvtWgQXzsOmXUuRHL).
 
 ## Table of contents
 
