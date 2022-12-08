@@ -90,19 +90,8 @@
         "Bacon",
         "Tomate"
       ],
-      "status": "Finalizado",
+      "status": "Solicitado",
       "id": 1
-    },
-    {
-      "name": "Vue.js",
-      "meat": "Veggie burger",
-      "bread": "3 Queijos",
-      "optionals": [
-        "Bacon",
-        "Cheddar"
-      ],
-      "status": "Em produção",
-      "id": 2
     },
     {
       "name": "sayu",
@@ -113,7 +102,7 @@
         "Salame",
         "Pepino"
       ],
-      "status": "Finalizado",
+      "status": "Em produção",
       "id": 3
     }
   ]
